@@ -1,0 +1,1 @@
+<h1>Open Source Software</h1><p>Open-source software is publicly accessible code that can be freely used, modified, and distributed. It fosters innovation by encouraging collaboration. Notable examples include Linux, Firefox, and Blender.</p>

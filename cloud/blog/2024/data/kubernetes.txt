@@ -1,0 +1,1 @@
+<h1>Kubernetes</h1><p>Kubernetes, an open-source container orchestration tool, is revolutionizing cloud computing by automating deployment, scaling, and management of containerized applications. It simplifies infrastructure for developers.</p>

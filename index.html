@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chauhan Pruthviraj">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#1a1a1a">
+    <title>Pruthviraj</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1 class="title">Pruthviraj</h1>
+        <!-- <div class="search-container">
+            <input type="text" class="search-box">
+            <button class="search">Go</button>
+        </div> -->
+        <div class="menu" onclick="shiva.toggleNav()">
+            <hr />
+            <hr />
+            <hr />
+        </div>
+
+    </header>
+
+    <nav class="nav">
+        <!-- Links will be dynamically updated -->
+        <p class="nav-link" data-topic="blog">Blog</p>
+        <p class="nav-link" data-topic="news">News</p>
+        <p class="nav-link" data-topic="stories">Stories</p>
+    </nav>
+
+
+    <!-- Main Section -->
+    <main id="main-content" class="main">
+        <article id="blog-container"></article>
+        <article id="fullBlogContainer"></article>
+
+        <!-- Pagination Section -->
+        <aside class="pagination-container">
+            <button id="prev" disabled>Prev</button>
+            <span id="page-info">Page 1</span>
+            <button id="next">Next</button>
+            <button id="back-button" style="display:none;">Back</button>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="src/js/Shiva.js"></script>
+</body>
+
+</html>

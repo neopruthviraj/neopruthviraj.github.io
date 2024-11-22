@@ -1,0 +1,1 @@
+<h1>Linux</h1><p>Linux is an open-source operating system kernel used in everything from servers to smartphones. It is known for its stability, security, and flexibility. Created by Linus Torvalds in 1991, Linux powers millions of devices globally.</p>

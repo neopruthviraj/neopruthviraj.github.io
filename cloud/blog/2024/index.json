@@ -1,0 +1,84 @@
+{
+  "blogList": [
+    {
+      "title": "Linux",
+      "summary": "Linux is an open-source operating system known for its security, flexibility, and performance. This blog covers its significance in technology, powering everything from servers to smartphones, and why it’s a popular choice for developers.",
+      "author": "Pruthviraj",
+      "path": "/cloud/blog/2024/data/linux.txt",
+      "keywords": [
+        {
+          "type": "text",
+          "text": "linux"
+        },
+        {
+          "type": "question",
+          "text": "what is linux"
+        }
+      ]
+    },
+    {
+      "title": "Open Source Software",
+      "summary": "Open-source software has transformed the software landscape, enabling collaboration and transparency. This blog explores its benefits, how it's reshaping development, and why it's crucial for businesses and developers to adopt it.",
+      "author": "Pruthviraj",
+      "path": "/cloud/blog/2024/data/open_source.txt",
+      "keywords": [
+        {
+          "type": "text",
+          "text": "open source"
+        },
+        {
+          "type": "question",
+          "text": "what is open-source software"
+        }
+      ]
+    },
+    {
+      "title": "Kubernetes",
+      "summary": "Kubernetes is a powerful platform for automating containerized applications' deployment and scaling. This blog explores its role in cloud computing, its benefits for managing microservices, and why it’s essential for modern developers.",
+      "author": "Pruthviraj",
+      "path": "/cloud/blog/2024/data/kubernetes.txt",
+      "keywords": [
+        {
+          "type": "text",
+          "text": "kubernetes"
+        },
+        {
+          "type": "question",
+          "text": "why use kubernetes"
+        }
+      ]
+    },
+    {
+      "title": "Artificial Intelligence",
+      "summary": "Artificial Intelligence is revolutionizing industries like healthcare, finance, and automation. This blog covers AI's impact on the future, its potential to solve complex problems, and the ethical considerations around its development.",
+      "author": "Pruthviraj",
+      "path": "/cloud/blog/2024/data/ai.txt",
+      "keywords": [
+        {
+          "type": "text",
+          "text": "AI"
+        },
+        {
+          "type": "question",
+          "text": "how is AI changing the world"
+        }
+      ]
+    },
+    {
+      "title": "Web Development Trends",
+      "summary": "Web development trends evolve quickly. This blog discusses the latest trends, such as the rise of PWAs, new front-end frameworks, and the role of AI in web design, while also emphasizing performance, responsiveness, and accessibility.",
+      "author": "Pruthviraj",
+      "path": "/cloud/blog/2024/data/web_dev.txt",
+      "keywords": [
+        {
+          "type": "text",
+          "text": "web development"
+        },
+        {
+          "type": "question",
+          "text": "what are the latest web trends"
+        }
+      ]
+    }
+  ]
+}
