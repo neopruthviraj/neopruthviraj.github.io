@@ -249,8 +249,21 @@ Special class
 
 */
 
+.cover-poster {
+  max-width: 99%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.cover-poster>img {
+  max-width: 300px;
+  height: auto;
+}
+
 .post-image {
   max-width: 300px;
   height: auto;
-  padding:20px;
+  padding: 20px;
 }
