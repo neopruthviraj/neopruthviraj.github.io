@@ -1,0 +1,17 @@
+<div>
+<img src="/src/image/profile/Pruthviraj.jpg" alt="Profile picture of Pruthviraj", class="post-image"/>
+  <p>
+    Hello, my name is Chauhan Pruthviraj, and I am from Mahuva, a small town in Bhavnagar district situated on the northern coast of the Arabian Sea. Here, I am cherishing some of the fascinating moments of my life by pursuing my hobbies and striving to understand life in depth.
+  </p>
+  <p>
+    I warmly welcome all of you to my website. Here, you will find a wealth of information related to technology, such as programming languages, Linux, networking, game development, science, and deep analysis of knowledge, along with some interesting facts.
+  </p>
+  <p>
+    I have created this website as a passion project where I will share my thoughts, experiences, and content. The content might not always be professional, but it will definitely be engaging.
+  </p>
+  <p>
+    The address of the website will be <a href="https://neopruthviraj.github.io" target="_blank">https://neopruthviraj.github.io</a>. 
+    Since childhood, I have had a dream of becoming a game developer. However, due to the lack of a computer and the unavailability of proper documentation or manuals related to game development during my time, I could not fulfill this dream. 
+    Yet, I am determined to learn C++ programming and work towards becoming a game developer.
+  </p>
+</div>

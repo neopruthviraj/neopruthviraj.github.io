@@ -1,6 +1,41 @@
 {
   "blogList": [
     {
+      "title": "Welcome to My Website",
+      "summary": "An introduction to my journey, passions, and the purpose of this website. Explore topics like technology, programming, Linux, networking, game development, science, and more.",
+      "author": "Pruthviraj",
+      "path": "/cloud/blog/2024/data/welcome.txt",
+      "keywords": [
+        {
+          "type": "text",
+          "text": "introduction"
+        },
+        {
+          "type": "text",
+          "text": "programming"
+        },
+        {
+          "type": "text",
+          "text": "game development"
+        },
+        {
+          "type": "question",
+          "text": "who is Pruthviraj?"
+        },
+        {
+          "type": "question",
+          "text": "what is this website about?"
+        }
+      ],
+      "cover": {
+        "type": "image",
+        "image": {
+          "src": "/src/image/profile/Pruthviraj.jpg",
+          "alt": "Profile Picture of Chauhan Pruthviraj"
+        }
+      }
+    },
+    {
       "title": "Linux",
       "summary": "Linux is an open-source operating system known for its security, flexibility, and performance. This blog covers its significance in technology, powering everything from servers to smartphones, and why it’s a popular choice for developers.",
       "author": "Pruthviraj",

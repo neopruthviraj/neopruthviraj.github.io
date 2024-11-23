@@ -125,7 +125,7 @@ class Shiva {
 
         return `
             <div class="card">
-                ${coverContent}
+               <div class="cover-poster"> ${coverContent} </div>
                 <h3>${blog.title}</h3>
                 <p>${blog.summary}</p>
                 <button class="read-more-button" onclick="Shiva.readMore('${blog.path}')">Read More</button>
@@ -173,7 +173,6 @@ class Shiva {
 
             const fullBlogContainer = document.getElementById("fullBlogContainer");
             fullBlogContainer.innerHTML = `
-                <h2>Blog Content</h2>
                 <div class="content">${content}</div>
                 <button id="back-button" onclick="Shiva.goBack()">Back</button>
             `;
