@@ -73,11 +73,8 @@ a {
 
 .menu hr {
   height: 3px;
-  /* Adjusted height */
   width: 20px;
-  /* Adjusted width */
   margin: 2px 0;
-  /* Adjusted margin */
   border: none;
   background-color: white;
   border-radius: 1px;
@@ -88,7 +85,7 @@ a {
   position: fixed;
   top: var(--header-height);
   left: 0;
-  width: 0;
+  width: 0; /* Fixed: Starts closed */
   height: 100vh;
   background: linear-gradient(-45deg, var(--primary-bg-color), var(--secondary-bg-color));
   display: flex;
@@ -96,7 +93,7 @@ a {
   align-items: center;
   justify-content: flex-start;
   overflow-y: auto;
-  transition: transform 0.3s ease, width 0.3s ease;
+  transition: width 0.3s ease; /* Corrected: Only width transition */
   z-index: 100;
 }
 
@@ -137,7 +134,7 @@ a {
 /* Blog Card */
 .card {
   min-height: 200px;
-  background-color: black;
+  background-color: var(--card-bg-color);
   padding: var(--spacing-medium);
   margin-bottom: var(--spacing-large);
   border-radius: 8px;
@@ -161,24 +158,6 @@ a {
   line-height: 1.6;
 }
 
-.card buttonm {
-  margin-top: var(--spacing-large);
-  padding: 12px 20px;
-  background: linear-gradient(90deg, var(--button-bg-color), var(--button-hover-color));
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-.card button:hover {
-  background: linear-gradient(90deg, var(--highlight-color), var(--button-hover-color));
-  transform: scale(1.05);
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
-}
-
 .read-more-button {
   margin-top: var(--spacing-large);
   padding: 12px 20px;
@@ -191,6 +170,28 @@ a {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
+.read-more-button:hover {
+  background: linear-gradient(90deg, var(--highlight-color), var(--button-hover-color));
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Full blog container styles */
+#fullBlogContainer {
+  display: none; /* Fixed: Hidden by default */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: white; /* Adjusted to ensure it's visible when active */
+  overflow-y: auto;
+  z-index: 200;
+  padding: var(--spacing-large);
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Added smooth appearance */
+}
+
+/* Pagination and controls */
 #prev,
 #next,
 #back-button {
@@ -205,7 +206,6 @@ a {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-.read-more-button:hover,
 #prev:hover,
 #next:hover,
 #back-button:hover {
@@ -214,14 +214,14 @@ a {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Pagination */
 .pagination-container {
-  color: white; 
+  color: white;
   text-align: center;
   margin-top: var(--spacing-large);
 }
+
 #page-info {
-  padding:20px;
+  padding: 20px;
 }
 
 /* Footer */
