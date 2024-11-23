@@ -174,7 +174,7 @@ class Shiva {
             const fullBlogContainer = document.getElementById("fullBlogContainer");
             fullBlogContainer.innerHTML = `
                 <h2>Blog Content</h2>
-                <p>${content}</p>
+                <div class="content">${content}</div>
                 <button id="back-button" onclick="Shiva.goBack()">Back</button>
             `;
 
