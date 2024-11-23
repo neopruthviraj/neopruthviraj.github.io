@@ -34,7 +34,8 @@ body {
   font-size: var(--font-size-base);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden; /* Prevent horizontal scroll */
+  overflow-x: hidden;
+  /* Prevent horizontal scroll */
 }
 
 h1,
@@ -51,21 +52,27 @@ a {
 
 /* Header styles */
 .header {
-  background-color: black;
-  height: var(--header-height);
+  height: 50px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 var(--spacing-medium);
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .title {
   color: var(--highlight-color);
   font-size: var(--font-size-heading);
+  text-indent: 10px;
+  font-size:25px;
 }
 
 /* Menu */
 .menu {
+  margin-right: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -86,7 +93,8 @@ a {
   position: fixed;
   top: var(--header-height);
   left: 0;
-  width: 0; /* Starts closed */
+  width: 0;
+  /* Starts closed */
   height: 100vh;
   background: linear-gradient(-45deg, var(--primary-bg-color), var(--secondary-bg-color));
   display: flex;
@@ -135,7 +143,7 @@ a {
 /* Blog Card */
 .card {
   min-height: 200px;
-  background-color:black;
+  background-color: black;
   padding: var(--spacing-medium);
   margin-bottom: var(--spacing-large);
   border-radius: 8px;
@@ -181,7 +189,7 @@ a {
 #fullBlogContainer {
   display: none;
   margin: var(--spacing-large) auto;
-  max-width : 100%;
+  max-width: 100%;
   background-color: black;
   overflow-y: auto;
   z-index: 200;
@@ -225,6 +233,8 @@ a {
 
 /* Footer */
 .footer {
+  height:50px;
+  width:100%;
   background-color: black;
   color: var(--highlight-color);
   display: flex;
